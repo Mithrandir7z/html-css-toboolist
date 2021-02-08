@@ -60,7 +60,7 @@ body {
     display: inline-block;
     width: 150px;
     height: 40px;
-    border: solid grey 1px;
+    border: solid rgb(238, 235, 235) 1px;
     margin-left: 1px;
     margin-top: 10px;
     color: white;
@@ -70,7 +70,72 @@ body {
 }
 
 .text2 {
-    color: grey;
+    color: rgb(238, 235, 235);
     position: relative;
     top: 5px;
+}
+
+.liste {
+    background: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 2px;
+    height: 610px;
+}
+
+.lista1 {
+    margin-left: 48px;
+}
+
+.ul1 {
+    padding-top: 40px;
+}
+
+.categoria {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.editorial {
+    width: 95px;
+    height: 27px;
+    background-color: rgb(103, 181, 218);
+    color: white;
+    display: inline-block;
+    margin-left: 8px;
+    border-radius: 15px;
+    position: relative;
+    top: 5px;
+}
+
+#editorial {
+    position: relative;
+    left: 20px;
+    top: 0px;
+}
+
+li {
+    line-height: 35px;
+}
+
+.compito {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.compito1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.q1-goals {
+    width: 95px;
+    height: 27px;
+    background-color: rgb(138, 73, 163);
+    color: white;
+    display: inline-block;
+    margin-left: 8px;
+    border-radius: 15px;
 }
